@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Built for Two</title>
+<style>
+html,body{margin:0;height:100%;background:#000;overflow:hidden;font-family:Georgia,'Times New Roman',serif}
+#film{display:block;position:fixed;inset:0;width:100vw;height:100vh;cursor:grab;touch-action:none}
+#film.drag{cursor:grabbing}
+#load{position:fixed;inset:0;display:grid;place-items:center;color:#8f8a80;font:italic 17px Georgia,serif;letter-spacing:.04em;pointer-events:none;transition:opacity .8s}
+#ui{position:fixed;inset:0;pointer-events:none;color:#efe9dc}
+</style>
+</head>
+<body>
+<canvas id="film"></canvas>
+<div id="ui"></div>
+<div id="load"></div>
+<!--SCRIPTS-->
+</body>
+</html>
